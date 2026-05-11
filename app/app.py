@@ -30,7 +30,7 @@ app.layout = html.Div([
         ]),
         dcc.Graph(id = 'profit_per_region_fig'),
         dcc.Interval(
-            id = 'interval_component'
+            id = 'interval_component',
             interval=5000,
             n_intervals=0
         )
